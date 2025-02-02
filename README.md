@@ -42,7 +42,7 @@ Ensure you have Flutter installed. If not, follow the official guide: [Flutter I
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/sabbir420/epg_viewer.git
+   git clone https://github.com/sabbir-swissmarket/epg_viewer.git
    ```
 2. Navigate to the project directory:
    ```sh
