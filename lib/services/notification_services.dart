@@ -33,7 +33,7 @@ class NotificationServices {
   Future<void> initNotification() async {
     if (!await _isNotificationPluginInitialized()) {
       const AndroidInitializationSettings androidSettings =
-          AndroidInitializationSettings('@drawable/launcher_icon');
+          AndroidInitializationSettings('@mipmap/ic_launcher');
       const DarwinInitializationSettings iosSettings =
           DarwinInitializationSettings(
         requestAlertPermission: true,
